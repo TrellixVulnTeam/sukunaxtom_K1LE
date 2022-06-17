@@ -1,7 +1,7 @@
 //=============『 Utama 』================== //
-global.owner = ['6287893056652'] 
-global.mods = ['6287893056652'] 
-global.prems = ['6287893056652'] 
+global.owner = ['6283180896284'] 
+global.mods = ['6283180896284'] 
+global.prems = ['6283180896284'] 
 
 //=============『 Info Owner 』============== //
 global.nameowner = 'Tomi Heneldra'
