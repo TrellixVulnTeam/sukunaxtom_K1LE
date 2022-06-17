@@ -25,7 +25,7 @@ global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
 global.wm = 'Sukuna-Md'
 global.watermark = wm
-global.wm2 = '                     Sukuna'
+global.wm2 = 'Ryomen Sukuna Bot'
 global.wm3 = 'Tomi Heneldra'
 global.htki = '––––––『' 
 global.htka = '』––––––'
@@ -36,7 +36,7 @@ global.eror = '_*Server Error*_'
 global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = 'Stiker sedang dibuat'
-global.packname = '2022'
+global.packname = 'By'
 global.author = '© Tomi Heneldra'
 
 //=============『 Apikey 』================== //
