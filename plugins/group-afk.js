@@ -13,6 +13,7 @@ conn.reply(str)
 handler.help = ['afk <alasan>']
 handler.tags = ['group']
 handler.command = /^afk$/i
+handler.premium = true
 
 module.exports = handler
 
