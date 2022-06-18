@@ -21,6 +21,7 @@ let dapat = (Math.floor(Math.random() * 10000000000000000))
 handler.help = ['merampok *@tag*']
 handler.tags = ['rpg']
 handler.command = /^merampok$/
+handler.premium = true
 handler.limit = true
 handler.group = true
 
