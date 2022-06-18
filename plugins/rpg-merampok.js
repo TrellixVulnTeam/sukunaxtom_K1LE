@@ -1,7 +1,7 @@
 let { MessageType } = require('@adiwajshing/baileys')
 let pajak = 0.02
 let handler = async (m, { conn, text }) => {
-let dapat = (Math.floor(Math.random() * 10000000000000000))
+let dapat = (Math.floor(Math.random() * 100000000))
   let who
   if (m.isGroup) who = m.mentionedJid[0]
   else who = m.chat
@@ -11,9 +11,9 @@ let dapat = (Math.floor(Math.random() * 10000000000000000))
   let timers = clockString(_timers)
   let users = global.db.data.users
   if (new Date - global.db.data.users[m.sender].lastrob > 3600000){
-  if (10000 > users[who].money) throw 'Target Gaada Uang bodoh, Kismin dia'
-  users[who].money -= 80128896815 // dapat * 1
-  users[m.sender].money += 80128896815 // dapat * 1
+  if (10000 > users[who].money) throw 'Target Gaada Uang Dek, Kismin dia'
+  users[who].money -= 80128 // dapat * 1
+  users[m.sender].money += 80128 // dapat * 1
   global.db.data.users[m.sender].lastrob = new Date * 1
   m.reply(`Berhasil Merampok Money Target Sebesar ${dapat}`)
 }else conn.reply(m.chat, `Anda Sudah merampok dan berhasil sembunyi , tunggu ${timers} untuk merampok lagi`, m)
