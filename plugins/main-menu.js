@@ -388,10 +388,6 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "description": "Menampilkan Menu Voice Changer",
                   "rowId": `${_p}? suara`
                 }, {
-                  "title": "PREMIUM",
-                  "description": "Menampilkan Menu Premium",
-                  "rowId": `${_p}? premium`
-                }, {
                   "title": "QUOTES",
                   "description": "Menampilkan Menu Quotes",
                   "rowId": `${_p}? quotes`
