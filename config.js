@@ -35,7 +35,7 @@ global.wait = '_*tunggu sedang di proses...*_'
 global.eror = '_*Server Error*_'
 global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
-global.stiker_wait = 'Stiker sedang dibuat'
+global.stiker_wait = 'Bentar ya dek...'
 global.packname = 'By'
 global.author = '© Tomi Heneldra'
 
